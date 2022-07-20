@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: rgba(57, 122, 160, 0.829);
+    width: 100%;
+    height: 650px;
+    padding-top: 1rem;
+}
+
+.sub-container{
+    width: 45%;
+    height: 17rem;
+    background-color: #fff;
+    margin-top: 8rem;
+    margin-left: 28%;
+    padding-top: 1rem;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.quote-text{
+    /* border: 1px solid #ccc; */
+    width: 80%;
+    height: 90px;
+    margin-top: 2%;
+    margin-left: 10%; 
+    text-align: center;
+    padding-top: 2rem;
+}
+.quote-text span{
+    font-size: 2rem;
+    text-align: right;
+    font-weight: 400px;
+    line-height: 40px;
+    padding: 1rem;
+    color:  rgba(57, 122, 160, 0.829);
+}
+
+.quote-text .fa{
+    color:  rgba(57, 122, 160, 0.829);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.author{
+    /* background-color: rgb(200, 255, 0);
+    border: 1px solid #ccc; */
+    width: 80%;
+    height: 1.8rem;
+    margin-left: 10%; 
+    text-align: right;
+    margin-top: 20px;
+}
+
+.author span{
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+    color:  rgba(57, 122, 160, 0.829);
+}
+
+.icons-button{
+
+    width: 80%;
+    height: 2.6rem;
+    margin-left: 10%; 
+    margin-top: 20px;
+}
+
+
+.icons-button .fa{
+    background-color:  rgba(57, 122, 160, 0.829);
+    width: 5%;
+    padding: 0.8rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.icons-button button{
+    float: right;
+    width: 20%;
+    padding: 0.8rem;
+    background-color:  rgba(57, 122, 160, 0.829);
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+/* .icons-button button a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+} */
+
+.footer{
+    width: 45%;
+    height: 2rem;
+    margin-left: 25%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 1rem;
+}
